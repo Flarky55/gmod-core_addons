@@ -199,3 +199,6 @@
 [submodule "tool_precision"]
 	path = tool_precision_git
 	url = https://github.com/generalwrex/precision-tool
+[submodule "tool_constraint-editor_git"]
+	path = tool_constraint-editor_git
+	url = https://github.com/Flarky55/gmod-constraint-editor
