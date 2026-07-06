@@ -25,11 +25,10 @@ jobs:
       - name: Update submodules
         id: update
         shell: bash
+        continue-on-error:  true
         run: |
           git submodule update --remote
-          set +e
-            git diff --quiet; echo "DIFF=$?" >> $GITHUB_OUTPUT
-          set -e
+          git diff --quiet; echo "DIFF=$?" >> $GITHUB_OUTPUT
       - name: Create and checkout new branch
         if: steps.update.outputs.DIFF==1
         id: branch
