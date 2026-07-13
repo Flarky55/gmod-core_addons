@@ -1,7 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/predator/lcpdpredator_lights"
-    $envmap      "env_cubemap"
-    $envmaptint  "[0.25 0.25 0.25]"
-	$allowdiffusemodulation "false"
-}

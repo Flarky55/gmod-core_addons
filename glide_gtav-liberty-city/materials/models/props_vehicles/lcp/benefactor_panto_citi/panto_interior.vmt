@@ -1,5 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/benefactor_panto_citi/panto_interior"
-	$allowdiffusemodulation "false"
-}

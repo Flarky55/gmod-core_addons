@@ -1,8 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/prop_ex_laptop_screen_01b"
-    $envmap      "env_cubemap"
-    $envmaptint  "[0.25 0.25 0.25]"
-	$allowdiffusemodulation "false"
-	$selfillum   "1"
-}

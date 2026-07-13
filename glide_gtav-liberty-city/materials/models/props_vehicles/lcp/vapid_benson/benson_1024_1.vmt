@@ -1,5 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/vapid_benson/benson_1024_1"
-	$allowdiffusemodulation "false"
-}

@@ -1,5 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/nagasaki_pegion/pigeon_details"
-	$allowdiffusemodulation "false"
-}

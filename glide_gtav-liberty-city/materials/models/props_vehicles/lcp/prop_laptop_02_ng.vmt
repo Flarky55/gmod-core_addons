@@ -1,9 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/prop_laptop_02_ng"
-	$bumpmap	 "models/props_vehicles/lcp/prop_laptop_02b_ng_n"
-    $phong       "1"
-    $phongboost  "1"
-    $phongfresnelranges "[0.1 0.1 0.1]"
-	$allowdiffusemodulation "false"
-}

@@ -1,9 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/mtl_firetruck/fdlcheavy_detail"
-	$bumpmap	 "models/props_vehicles/lcp/mtl_firetruck/fdlcheavy_detail_n"
-    $phong       "1"
-    $phongboost  "1"
-    $phongfresnelranges "[0.1 0.1 0.1]"
-	$allowdiffusemodulation "false"
-}

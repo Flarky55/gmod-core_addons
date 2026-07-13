@@ -185,7 +185,8 @@
 	url = https://github.com/TacRP-EX-Creators-Club/tacrp-ak
 [submodule "outfitter"]
 	path = outfitter
-	url = https://github.com/Metastruct/outfitter
+	url = https://github.com/Metastruct/outfitter/
+	branch = amalgamation
 [submodule "tool_material-editor"]
 	path = tool_material-editor
 	url = https://github.com/CFC-Servers/material-editor-tool
@@ -255,3 +256,15 @@
 [submodule "tool_advanced-ballsocket"]
 	path = tool_advanced-ballsocket
 	url = https://github.com/gmod-hz/advanced-ballsocket
+[submodule "animated-avatars"]
+	path = animated-avatars
+	url = https://github.com/gmod-hz/animated-avatars
+[submodule "wos"]
+	path = wos
+	url = https://github.com/gmod-hz/wos
+[submodule "extended-spawnmenu"]
+	path = extended-spawnmenu
+	url = https://github.com/gmod-hz/extended-spawnmenu
+[submodule "glide_gtav-liberty-city"]
+	path = glide_gtav-liberty-city
+	url = https://github.com/gmod-hz/glide_gtav-liberty-city

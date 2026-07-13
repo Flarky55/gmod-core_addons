@@ -1,6 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/props_vehicles/lcp/2_prop_blades2_prop_blades_a"
-	$translucent "1"
-	$allowdiffusemodulation "false"
-}
