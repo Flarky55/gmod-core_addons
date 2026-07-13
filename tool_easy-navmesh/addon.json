@@ -1,6 +1,0 @@
-{
-	"title"		: "Easy Navmesh Tool",
-	"type"		: "tool",
-	"tags"		: [ "build" ],
-	"ignore"	: []
-}

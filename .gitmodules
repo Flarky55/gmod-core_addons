@@ -210,3 +210,48 @@
 [submodule "tool_permaprops"]
 	path = tool_permaprops
 	url = https://github.com/MalboroDEV/PermaProps
+[submodule "lib_cr3"]
+	path = lib_cr3
+	url = https://github.com/conred-gmod/conred3-lib
+[submodule "xdreanimsbase"]
+	path = xdreanimsbase
+	url = https://github.com/gmod-hz/xdreanimsbase
+[submodule "wos_standard-sword-art"]
+	path = wos_standard-sword-art
+	url = https://github.com/gmod-hz/wos_standard-sword-art
+[submodule "wos_prone"]
+	path = wos_prone
+	url = https://github.com/gmod-hz/wos_prone
+[submodule "prone"]
+	path = prone
+	url = https://github.com/gmod-hz/prone
+[submodule "wos_blade-symphony"]
+	path = wos_blade-symphony
+	url = https://github.com/gmod-hz/wos_blade-symphony
+[submodule "tool-search-favorites"]
+	path = tool-search-favorites
+	url = https://github.com/gmod-hz/tool-search-favorites
+[submodule "tool_submaterial"]
+	path = tool_submaterial
+	url = https://github.com/gmod-hz/submaterial
+[submodule "tool_easy-navmesh"]
+	path = tool_easy-navmesh
+	url = https://github.com/gmod-hz/easy-navmesh-editor
+[submodule "tool_easy-inspector"]
+	path = tool_easy-inspector
+	url = https://github.com/gmod-hz/easy-inspector
+[submodule "tool_easy-bodygroup"]
+	path = tool_easy-bodygroup
+	url = https://github.com/gmod-hz/easy-bodygroup
+[submodule "tool_easy-animation"]
+	path = tool_easy-animation
+	url = https://github.com/gmod-hz/easy-animation
+[submodule "tool_axis-ballsocket-centre"]
+	path = tool_axis-ballsocket-centre
+	url = https://github.com/gmod-hz/axis-ballsocket-centre
+[submodule "tool_advanced-ballsocket-easy"]
+	path = tool_advanced-ballsocket-easy
+	url = https://github.com/gmod-hz/advanced-ballsocket-easy
+[submodule "tool_advanced-ballsocket"]
+	path = tool_advanced-ballsocket
+	url = https://github.com/gmod-hz/advanced-ballsocket
