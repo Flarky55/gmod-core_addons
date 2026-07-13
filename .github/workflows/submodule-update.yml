@@ -1,7 +1,7 @@
 name: Submodule Update
 
 permissions:
-  contents: write 
+  contents: write
   pull-requests: write
 
 on:
@@ -27,6 +27,9 @@ jobs:
         shell: bash
         run: |
           git submodule update --remote
+
+          # Wrap for making errors non-halting
+          #  Using `continue-on-error: true` not working properly
           set +e
             git diff --quiet; echo "DIFF=$?" >> $GITHUB_OUTPUT
           set -e
