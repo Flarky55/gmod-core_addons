@@ -268,3 +268,15 @@
 [submodule "glide_gtav-liberty-city"]
 	path = glide_gtav-liberty-city
 	url = https://github.com/gmod-hz/glide_gtav-liberty-city
+[submodule "smartsnap"]
+	path = smartsnap
+	url = https://github.com/gmod-hz/smartsnap
+[submodule "sent_soccer-ball"]
+	path = sent_soccer-ball
+	url = https://github.com/gmod-hz/soccer-ball
+[submodule "sent_jetpack"]
+	path = sent_jetpack
+	url = https://github.com/gmod-hz/jetpack
+[submodule "sent_grappling-hook"]
+	path = sent_grappling-hook
+	url = https://github.com/gmod-hz/grappling-hook
