@@ -280,3 +280,9 @@
 [submodule "sent_grappling-hook"]
 	path = sent_grappling-hook
 	url = https://github.com/gmod-hz/grappling-hook
+[submodule "smooth-noclip"]
+	path = smooth-noclip
+	url = https://github.com/gmod-hz/smooth-noclip
+[submodule "swep_self-portrait-camera"]
+	path = swep_self-portrait-camera
+	url = https://github.com/gmod-hz/self-portrait-camera

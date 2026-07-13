@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/weapons/v_camphone/cameraphone"
-	"$selfillum" 1 
-	"$model" 1
-}
