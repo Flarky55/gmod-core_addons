@@ -286,3 +286,6 @@
 [submodule "swep_self-portrait-camera"]
 	path = swep_self-portrait-camera
 	url = https://github.com/gmod-hz/self-portrait-camera
+[submodule "undo-hold"]
+	path = undo-hold
+	url = https://github.com/gmod-hz/undo-hold
