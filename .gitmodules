@@ -289,3 +289,19 @@
 [submodule "undo-hold"]
 	path = undo-hold
 	url = https://github.com/gmod-hz/undo-hold
+[submodule "lib_cfc_notifications"]
+	path = lib_cfc_notifications
+	url = https://github.com/CFC-Servers/cfc_notifications
+[submodule "cfc_parachutes"]
+	path = cfc_parachutes
+	url = https://github.com/CFC-Servers/cfc_parachutes
+[submodule "lib_cfc_logger"]
+	path = lib_cfc_logger
+	url = https://github.com/CFC-Servers/gm_logger
+	branch = lua
+[submodule "cfc_random-spawn"]
+	path = cfc_random-spawn
+	url = https://github.com/CFC-Servers/cfc_random_spawn/
+[submodule "cfc_prop-restoration"]
+	path = cfc_prop-restoration
+	url = https://github.com/CFC-Servers/cfc_prop_restoration/
