@@ -291,7 +291,7 @@
 	url = https://github.com/gmod-hz/undo-hold
 [submodule "lib_cfc_notifications"]
 	path = lib_cfc_notifications
-	url = https://github.com/CFC-Servers/cfc_notifications
+	url = https://github.com/gmod-hz/cfc_notifications
 [submodule "cfc_parachutes"]
 	path = cfc_parachutes
 	url = https://github.com/CFC-Servers/cfc_parachutes
