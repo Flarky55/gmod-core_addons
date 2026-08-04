@@ -9,6 +9,9 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+env:
+  BRANCH: chore/submodule-update
+
 jobs:
   submodule-update:
     runs-on: ubuntu-latest
@@ -33,27 +36,20 @@ jobs:
           set +e
             git diff --quiet; echo "DIFF=$?" >> $GITHUB_OUTPUT
           set -e
-      - name: Create and checkout new branch
+      - name: Сheckout or create branch
         if: steps.update.outputs.DIFF==1
-        id: branch
         shell: bash
         run: |
-          BRANCH="chore/submodule-update-$(date +%Y%m%d-%H%M%S)"
-          git checkout -b "$BRANCH"
-          echo "BRANCH=$BRANCH" >> "$GITHUB_OUTPUT"
+          git checkout -B "$BRANCH"
       - name: Commit and push changes
         if: steps.update.outputs.DIFF==1
         shell: bash
-        env:
-          BRANCH: ${{ steps.branch.outputs.BRANCH }}
         run: |
           git commit -am "Updated submodules"
-          git push --set-upstream origin "$BRANCH"
+          git push --force-with-lease origin "$BRANCH"
       - name: Create pull request
         if: steps.update.outputs.DIFF==1
         uses: actions/github-script@v9.0.0
-        env:
-          BRANCH: ${{ steps.branch.outputs.BRANCH }}
         with:
           script: |
             await github.rest.pulls.create({
