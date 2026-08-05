@@ -305,3 +305,6 @@
 [submodule "cfc_prop-restoration"]
 	path = cfc_prop-restoration
 	url = https://github.com/CFC-Servers/cfc_prop_restoration/
+[submodule "swep_wowozela"]
+	path = swep_wowozela
+	url = https://github.com/CapsAdmin/wowozela
