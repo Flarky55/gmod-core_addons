@@ -50,6 +50,7 @@ jobs:
       - name: Create pull request
         if: steps.update.outputs.DIFF==1
         uses: actions/github-script@v9.0.0
+        continue-on-error: true
         with:
           script: |
             await github.rest.pulls.create({
