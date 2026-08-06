@@ -25,6 +25,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Сheckout or create branch
+        shell: bash
+        run: |
+          git checkout "$BRANCH" 2>/dev/null || git checkout -b "$BRANCH"
       - name: Update submodules
         id: update
         shell: bash
@@ -36,17 +40,12 @@ jobs:
           set +e
             git diff --quiet; echo "DIFF=$?" >> $GITHUB_OUTPUT
           set -e
-      - name: Сheckout or create branch
-        if: steps.update.outputs.DIFF==1
-        shell: bash
-        run: |
-          git checkout -B "$BRANCH"
       - name: Commit and push changes
         if: steps.update.outputs.DIFF==1
         shell: bash
         run: |
           git commit -am "Updated submodules"
-          git push --force-with-lease origin "$BRANCH"
+          git push origin "$BRANCH"
       - name: Create pull request
         if: steps.update.outputs.DIFF==1
         uses: actions/github-script@v9.0.0
