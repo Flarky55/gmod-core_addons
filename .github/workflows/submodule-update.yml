@@ -29,6 +29,11 @@ jobs:
         shell: bash
         run: |
           git checkout "$BRANCH" 2>/dev/null || git checkout -b "$BRANCH"
+      - name: Sync with main branch
+        shell: bash
+        run: |
+          git fetch origin main
+          git merge origin/main --no-edit
       - name: Update submodules
         id: update
         shell: bash
@@ -36,7 +41,6 @@ jobs:
           git submodule update --remote
 
           # Wrap for making errors non-halting
-          #  Using `continue-on-error: true` not working properly
           set +e
             git diff --quiet; echo "DIFF=$?" >> $GITHUB_OUTPUT
           set -e
