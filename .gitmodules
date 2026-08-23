@@ -308,3 +308,13 @@
 [submodule "swep_wowozela"]
 	path = swep_wowozela
 	url = https://github.com/CapsAdmin/wowozela
+[submodule "stormfox2"]
+	path = stormfox2
+	url = https://github.com/Nak2/StormFox2
+[submodule "sam"]
+	path = sam
+	url = https://github.com/gmod-hz/sam
+	branch = main-core
+[submodule "sam_sui"]
+	path = sam_sui
+	url = https://github.com/gmod-hz/sui
