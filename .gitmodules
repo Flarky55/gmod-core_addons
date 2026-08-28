@@ -321,3 +321,6 @@
 [submodule "glide_google-pig"]
 	path = glide_google-pig
 	url = https://github.com/gmod-hz/glide_google-pig
+[submodule "seamless-portals"]
+	path = seamless-portals
+	url = https://github.com/meetric1/GMod-Seamless-Portals
