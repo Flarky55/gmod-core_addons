@@ -324,3 +324,12 @@
 [submodule "seamless-portals"]
 	path = seamless-portals
 	url = https://github.com/meetric1/GMod-Seamless-Portals
+[submodule "gcal"]
+	path = gcal
+	url = https://github.com/Midawek/gcal
+[submodule "swep_binoculars"]
+	path = swep_binoculars
+	url = https://github.com/gmod-hz/rpw_binoculars-pack
+[submodule "gcal_night-vision"]
+	path = gcal_night-vision
+	url = https://github.com/gmod-hz/gcal_arctics-night-vision
