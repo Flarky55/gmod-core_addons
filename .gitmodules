@@ -99,6 +99,7 @@
 [submodule "projectile-flight"]
 	path = projectile-flight
 	url = https://github.com/unknown-gd/projectile-flight
+	branch = lua
 [submodule "seat-weaponizer"]
 	path = seat-weaponizer
 	url = https://github.com/Flarky55/Seat-Weaponizer
@@ -333,3 +334,6 @@
 [submodule "gcal_night-vision"]
 	path = gcal_night-vision
 	url = https://github.com/gmod-hz/gcal_arctics-night-vision
+[submodule "gterminal-universal"]
+	path = gterminal-universal
+	url = https://github.com/Zanik231/gTerminal-Universal
